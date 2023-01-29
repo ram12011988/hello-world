@@ -38,7 +38,7 @@
   <type>maven-plugin</type>
 </dependency>
           
-                   <build>
+                 
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -48,7 +48,9 @@
                 <source>11.0.16</source>
                 <target>11.0.16</target>
             </configuration>
-
+</plugin>
+</plugins>
+                            
 <plugins>
     <plugin>    
         <artifactId>maven-compiler-plugin</artifactId>
